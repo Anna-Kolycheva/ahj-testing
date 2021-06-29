@@ -1,0 +1,110 @@
+body {
+    color: rgb(90, 90, 90);
+    font-family: Helvetica, sans-serif;
+}
+
+.cards {
+    margin-top: 50px;
+    margin-left: 40px;
+	margin-right: auto;
+    width: 350px;
+    height: 180px;
+    border: 1px solid grey;
+    padding: 20px;
+    padding-inline-start: 20px; 
+}
+
+.cards__tittle {
+ font-size: 18px;
+}
+
+.cards__list {
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    padding-inline-start: 0; 
+}
+
+.cards__item {
+  display: inline-block;
+  min-height: 30px;
+  min-width: 40px;
+  margin-right: 5px;
+  background: no-repeat center;
+  font-size: 0;
+  opacity: 20%;
+}
+
+.form__button {
+    min-width: 100px;
+    font-family: inherit;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #fc0;
+    color: rgb(68, 68, 68);
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.form__button:hover {
+    background: rgb(255, 215, 56);
+}
+
+.form__button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+}
+
+.form__input {
+    font-family: inherit;
+    font-size: 14px;
+    min-height: 24px;
+    min-width: 190px;
+    margin-top: 8px;
+}
+
+.form__label {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.message {
+    padding-top: 8px;
+    font-size: 14px;
+    color: rgb(214, 86, 64);
+}
+
+.mir {
+    background-image: url(../img/icons8-мир-48.png);
+}
+
+.visa {
+    background-image: url(../img/icons8-виза-48.png);
+}
+
+.mastercard {
+    background-image: url(../img/icons8-мастеркард-48.png);
+}
+
+.american_express {
+    background-image: url(../img/icons8-амекс-48.png);
+}
+
+.discover {
+    background-image: url(../img/icons8-discover-48.png);
+}
+
+.jcb {
+    background-image: url(../img/icons8-jcb-48.png);
+}
+
+.diners_club {
+    background-image: url(../img/icons8-diners-club-48.png);
+}
+
+.valid {
+    opacity: 100%;
+}
