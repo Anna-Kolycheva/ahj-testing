@@ -33,7 +33,7 @@ body {
   margin-right: 5px;
   background: no-repeat center;
   font-size: 0;
-  opacity: 20%;
+  opacity: 0.2;
 }
 
 .form__button {
@@ -106,5 +106,5 @@ body {
 }
 
 .valid {
-    opacity: 100%;
+    opacity: 1;
 }
